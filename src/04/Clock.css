@@ -1,0 +1,47 @@
+/* 끝없는 심연의 블랙 */
+body {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Pretendard', 'Malgun Gothic', sans-serif;
+}
+
+/* 박스 형태를 완전히 제거하여 공간감을 줌 */
+.clock-container {
+    text-align: center;
+}
+
+/* 멀리서 유령처럼 떠오르는 학과 이름 */
+.clock-title {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.4); /* 반투명한 흰색 */
+    margin: 0 0 40px 0;
+    letter-spacing: 12px; /* 자간을 아주 넓게 벌려 공허함 강조 */
+}
+
+/* 고요한 텍스트 */
+.clock-time {
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.3);
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+/* 허공에 얇게 빛나는 시간 */
+.time-highlight {
+    font-weight: 100; /* 폰트를 아주 얇게 */
+    color: rgba(200, 240, 255, 0.9); /* 창백하고 차가운 푸른빛 */
+    background: transparent; /* 배경색 제거 */
+    border: none; /* 테두리 제거 */
+    margin: 30px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5rem;
+    display: block;
+    text-shadow: 0 0 20px rgba(100, 200, 255, 0.3); /* 은은하고 흐릿한 광원 효과 */
+    letter-spacing: 8px;
+}
