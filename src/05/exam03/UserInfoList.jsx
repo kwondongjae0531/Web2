@@ -11,7 +11,7 @@ const users = [
     {
         name: "Ahn Yujin",
         avatarUrl: "https://cdn.pixabay.com/photo/2025/08/28/11/47/user-9801864_1280.png",
-        comment: "I think likes me. ^^"
+        comment: "I think i like me. ^^"
     },
     {
         name: "Park Liz",
