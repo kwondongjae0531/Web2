@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import useCounter from "./useCounter";
-import "./Accommodation.css";
+import "./Accommodate.css";
 
 const MAX_CAPACITY = 10;
 
@@ -15,18 +15,33 @@ function Accommodate() {
     });
 
     useEffect(() => {
-        setIsFull(count >= MAX_CAPACITY)
+        setIsFull(count >= MAX_CAPACITY);
         console.log(`Current count value: ${count}`);
     }, [count]);
 
     return (
-        <div>
-            <p>{`현재 총 ${count}명 수용 중 입니다.`}</p>
-            <div>
-                <button onClick={increaseCount}>수용시설에 입장</button> &nbsp;&nbsp;
-                <button onClick={decreaseCount}>수용시설에서 퇴장</button>
+        <div className="accommodate">
+
+            <p className="count">
+                {`현재 총 ${count}명 수용 중 입니다.`}
+            </p>
+
+            <div className="button-container">
+                <button onClick={increaseCount}>
+                    수용시설에 입장
+                </button>
+
+                <button onClick={decreaseCount}>
+                    수용시설에서 퇴장
+                </button>
             </div>
-            {isFull && <p>수용시설에 정원이 가득 찼습니다.</p>}
+
+            {isFull && (
+                <p className="full-message">
+                    수용시설에 정원이 가득 찼습니다.
+                </p>
+            )}
+
         </div>
     );
 }

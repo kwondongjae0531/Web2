@@ -1,9 +1,8 @@
-
 .accommodate {
     width: 420px;
     margin: 80px auto;
     padding: 35px;
-    background-color: #ffffff;
+    background-color: white;
     border: 1px solid #e5e7eb;
     border-radius: 16px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
@@ -11,17 +10,11 @@
     font-family: Arial, sans-serif;
 }
 
-.accommodate h2 {
-    margin-bottom: 25px;
-    font-size: 24px;
-    color: #222222;
-}
-
 .count {
     margin-bottom: 25px;
     font-size: 20px;
     font-weight: 600;
-    color: #333333;
+    color: #333;
 }
 
 .button-container {
@@ -34,15 +27,14 @@
     padding: 12px 18px;
     border: none;
     border-radius: 8px;
-    background-color: #333333;
+    background-color: #333;
     color: white;
     font-size: 14px;
     cursor: pointer;
-    transition: 0.2s;
 }
 
 .button-container button:hover {
-    background-color: #555555;
+    background-color: #555;
 }
 
 .button-container button:active {
@@ -54,7 +46,7 @@
     padding: 12px;
     border-radius: 8px;
     background-color: #f3f4f6;
-    color: #333333;
+    color: #333;
     font-size: 14px;
     font-weight: 600;
 }
