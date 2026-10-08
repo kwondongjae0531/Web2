@@ -17,14 +17,19 @@ import Welcome from "./05/exam01/Welcome"; //지우면안됨
 
 // import BookList from "./05/exam02/BookList";
 //import UserInfoList from "./05/exam03/UserInfoList";
-import NotificationList from "./06/NotificationList";
+// import NotificationList from "./06/NotificationList";
+// import Counter from "./07/Counter";
+// import UseEffect from "./07/UseEffect";
+// import TextInputWithFocusButton from "./07/TextInputWithFocusButton";
+import Accommodate from "./07/02/Accommodate";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
     root.render(
         <React.StrictMode>
-            <NotificationList/>
+            <Accommodate/>
         </React.StrictMode>
         );
     }, 1000
