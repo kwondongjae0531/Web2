@@ -4,6 +4,7 @@ import './index.css';
 //import App from './App';
 // import TodoListApp from "./01/TodoListApp";
 import reportWebVitals from './reportWebVitals';
+import Mybutton2 from "./08/Mybutton2";
 //import Library from "./03/
 // import Library from "./03/Library";
 // import Library from "./03/enhanced_css/Library"
@@ -23,7 +24,7 @@ import reportWebVitals from './reportWebVitals';
 // import Accommodate from "./07/02/Accommodate";
 // import Toggle from "./08/Toggle";
 // import Mybutton from "./08/Mybutton";
-import Toggle2 from "./08/Toggle2";
+// import Toggle2 from "./08/Toggle2";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -31,7 +32,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
     root.render(
         <React.StrictMode>
-            <Toggle2/>
+            <Mybutton2/>
         </React.StrictMode>
         );
     }, 1000
