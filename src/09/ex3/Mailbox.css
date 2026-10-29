@@ -1,0 +1,78 @@
+/* Mailbox.css — 깔끔하고 차분한 미니멀 메일박스 */
+.mailbox-page,
+.mailbox-page * {
+    box-sizing: border-box;
+}
+
+.mailbox-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background: #f4f7fb;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
+}
+
+.mailbox-card {
+    width: 100%;
+    max-width: 420px;
+    padding: 34px;
+    border: 1px solid #e7edf5;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 12px 40px rgba(39, 65, 102, 0.07);
+}
+
+.mailbox-label {
+    display: inline-block;
+    margin-bottom: 14px;
+    color: #5175ae;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.mailbox-title {
+    margin: 0;
+    color: #233044;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+}
+
+.mailbox-message {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 26px 0 0;
+    padding: 18px 16px;
+    border: 1px solid #e5edfb;
+    border-radius: 14px;
+    background: #f3f7ff;
+    color: #43546d;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.mailbox-count {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 0 9px;
+    border-radius: 10px;
+    background: #496fb1;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media (max-width: 480px) {
+    .mailbox-card { padding: 27px 22px; }
+    .mailbox-title { font-size: 24px; }
+    .mailbox-message { font-size: 14px; }
+}

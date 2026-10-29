@@ -1,0 +1,90 @@
+/* LogInControl.css — 미니멀 블루 & 민트 로그인 카드 */
+
+.login-control,
+.login-control * {
+    box-sizing: border-box;
+}
+
+.login-control {
+    position: relative;
+    width: min(420px, calc(100% - 32px));
+    margin: 100px auto 0;
+    padding: 48px 32px;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid #dce8f3;
+    border-radius: 20px;
+    box-shadow: 0 16px 44px rgba(38, 77, 125, 0.12);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* 카드 위의 작은 포인트 컬러 */
+.login-control::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, #6296e8, #81c9bd);
+}
+
+/* 로그인 상태에 따라 Greeting 컴포넌트의 문구 변경 */
+.login-control h1 {
+    margin: 0 0 30px;
+    color: #263c58;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.45;
+    letter-spacing: -0.6px;
+}
+
+/* 로그인 / 로그아웃 버튼 공통 스타일 */
+.login-control button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 190px;
+    min-height: 48px;
+    padding: 12px 24px;
+    border: 1px solid #4278bf;
+    border-radius: 11px;
+    background: #4278bf;
+    color: #ffffff;
+    font: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.login-control button:hover {
+    background: #315f9e;
+    box-shadow: 0 6px 16px rgba(49, 95, 158, 0.18);
+    transform: translateY(-1px);
+}
+
+.login-control button:active {
+    transform: translateY(0);
+}
+
+.login-control button:focus-visible {
+    outline: 3px solid #9bd6d0;
+    outline-offset: 3px;
+}
+
+@media (max-width: 480px) {
+    .login-control {
+        margin-top: 48px;
+        padding: 38px 24px;
+    }
+
+    .login-control h1 {
+        font-size: 21px;
+    }
+
+    .login-control button {
+        width: 100%;
+    }
+}

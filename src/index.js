@@ -28,15 +28,22 @@ import Mybutton2 from "./08/Mybutton2";
 // import Mybutton from "./08/Mybutton2";
 // import ConfirmButton from "./08/ConfirmButton";
 
-import ConfirmButton from "./08/ConfirmButton2";
-import MessageSender from "./08/MessageSender";
+// import ConfirmButton from "./08/ConfirmButton2";
+// import MessageSender from "./08/MessageSender";
+// import Greeting from "./09/ex1/Greeting";
+// import LogInControl from "./09/ex2/LogInControl";
+// import Mailbox from "./09/ex3/Mailbox";
+// import LogInControl2 from "./09/ex3/LogInControl2";
+// import MainPage from "./09/ex4/MainPage";
+import LandingPage from "./09/finalEX/LandingPage";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
     root.render(
         <React.StrictMode>
-            <MessageSender/>
+            <LandingPage/>
         </React.StrictMode>
         );
     }, 1000
