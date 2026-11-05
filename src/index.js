@@ -4,7 +4,7 @@ import './index.css';
 //import App from './App';
 // import TodoListApp from "./01/TodoListApp";
 import reportWebVitals from './reportWebVitals';
-import Mybutton2 from "./08/Mybutton2";
+// import Mybutton2 from "./08/Mybutton2";
 //import Library from "./03/
 // import Library from "./03/Library";
 // import Library from "./03/enhanced_css/Library"
@@ -35,15 +35,22 @@ import Mybutton2 from "./08/Mybutton2";
 // import Mailbox from "./09/ex3/Mailbox";
 // import LogInControl2 from "./09/ex3/LogInControl2";
 // import MainPage from "./09/ex4/MainPage";
-import LandingPage from "./09/finalEX/LandingPage";
+// import LandingPage from "./09/finalEX/LandingPage";
 
+// import MapTest from "./10/MapTest";
+// import AttendanceBook from "./10/AttendanceBook";
+// import AttendanceCardBook from "./10/AttendanceCardBook";
+// import NewForm from "./11/NewForm";
+
+// import FruitSelect from "./11/FruitSelect";
+import Reservation from "./11/Reservation";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
     root.render(
         <React.StrictMode>
-            <LandingPage/>
+            <Reservation/>
         </React.StrictMode>
         );
     }, 1000
