@@ -44,14 +44,19 @@ import reportWebVitals from './reportWebVitals';
 
 // import FruitSelect from "./11/FruitSelect";
 // import Reservation from "./11/Reservation";
-import WelcomeDialog from "./13/WelcomeDialog";
+// import WelcomeDialog from "./13/ex1/WelcomeDialog";
+// import Dialog from "./13/ex2/Dialog";
+// import WelcomeDialog from "./13/ex2/WelcomeDialog";
+// import SignUpDialog from "./13/ex3/SignUpDialog";
+// import Card from "./13/ex3/Card";
+import ProfileCard from "./13/ex3/ProfileCard";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
     root.render(
         <React.StrictMode>
-            <WelcomeDialog/>
+            <ProfileCard/>
         </React.StrictMode>
         );
     }, 1000

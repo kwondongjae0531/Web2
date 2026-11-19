@@ -1,16 +1,19 @@
 .FancyBorder {
     max-width: 480px;
-    margin: 100px auto;
+    margin: 30px auto;
     padding: 40px;
     border: 2px solid;
     border-radius: 16px;
     background-color: #ffffff;
     text-align: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .FancyBorder-blue {
     border-color: #2563eb;
+}
+
+.FancyBorder-red {
+    border-color: #ef4444;
 }
 
 .Dialog-title {
@@ -23,6 +26,5 @@
 .Dialog-message {
     margin: 0;
     font-size: 15px;
-    line-height: 1.8;
     color: #737373;
 }
