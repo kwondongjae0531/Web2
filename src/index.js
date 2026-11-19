@@ -43,14 +43,15 @@ import reportWebVitals from './reportWebVitals';
 // import NewForm from "./11/NewForm";
 
 // import FruitSelect from "./11/FruitSelect";
-import Reservation from "./11/Reservation";
+// import Reservation from "./11/Reservation";
+import WelcomeDialog from "./13/WelcomeDialog";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
     root.render(
         <React.StrictMode>
-            <Reservation/>
+            <WelcomeDialog/>
         </React.StrictMode>
         );
     }, 1000
