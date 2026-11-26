@@ -49,14 +49,15 @@ import reportWebVitals from './reportWebVitals';
 // import WelcomeDialog from "./13/ex2/WelcomeDialog";
 // import SignUpDialog from "./13/ex3/SignUpDialog";
 // import Card from "./13/ex3/Card";
-import ProfileCard from "./13/ex3/ProfileCard";
+// import ProfileCard from "./13/ex3/ProfileCard";
+import DarkOrLight from "./14/DarkOrLight";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
     root.render(
         <React.StrictMode>
-            <ProfileCard/>
+            <DarkOrLight/>
         </React.StrictMode>
         );
     }, 1000
